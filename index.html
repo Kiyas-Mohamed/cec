@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commerce Education Center</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="assets/img/3800024.png">
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- FontAwesome Css -->
+    <link rel="stylesheet" href="assets/plugins/fontawesome-free-5.15.3-web/css/all.min.css">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
+
+    <style>
+        .header {
+            min-height: 100vh;
+            width: 100%;
+            background-image: linear-gradient(rgba(4, 9, 30, 0.70), rgba(4, 9, 30, 0.70)), url(assets/img/background-pic-3.jpg);
+            background-position: center;
+            background-size: cover;
+            position: relative;
+        }
+
+        .cta {
+            width: 80%;
+            margin: 80px auto;
+            padding: 100px 0;
+            background-position: center;
+            background-size: cover;
+            border-radius: 8px;
+            text-align: center;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(assets/img/background-pic-2.jpg);
+        }
+
+        .cta h1 {
+            margin-bottom: 40px;
+            color: #fff;
+            padding: 0;
+        }
+
+        @media(max-width: 800px) {
+            .cta h1 {
+                font-size: 22px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Section 1 -->
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="assets/img/3800024.png" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="#SERVICE">SERVICE</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">CONTECT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Sri Lanka's commerce education center</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint <br> corporis quaerat tenetur quis
+                incidunt.</p>
+            <a class="hero-btn" href="#">JOIN FOR FREE</a>
+        </div>
+    </section>
+
+    <!-- Section 2 -->
+    <section class="course" id="SERVICE">
+        <h1>The lesson we teach is Commerce</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Business</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem voluptate ut doloribus dignissimos,
+                    consectetur vel mollitia molestiae soluta rerum corporis? Facere voluptatum consectetur dignissimos
+                    iusto consequatur? Impedit quidem esse incidunt.</p>
+            </div>
+            <div class="course-col">
+                <h3>Accounts</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, quas eius dolore nihil odio corrupti
+                    ipsa rem quibusdam? Qui accusamus provident voluptatem aperiam numquam dolorem asperiores voluptates
+                    magnam tenetur aliquam!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3 -->
+    <section class="room">
+        <h1>Our Class Rooms</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        <div class="row">
+            <div class="room-col">
+                <img src="assets/img/class-pic-1.jpg" alt="accounting room">
+                <div class="layer">
+                    <h3>Accounting Room</h3>
+                </div>
+            </div>
+            <div class="room-col">
+                <img src="assets/img/class-pic-2.jpg" alt="business room">
+                <div class="layer">
+                    <h3>Business Room</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4 -->
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="assets/img/background-pic-1.jpg" alt="big class room">
+                <h3>World Class Room</h3>
+                <p>Obcaecati error facilis itaque animi dignissimos debitis, consequuntur expedita a, inventore, amet
+                    nostrum laudantium. Fugit, provident id! Ullam fuga assumenda animi beatae!</p>
+            </div>
+            <div class="facilities-col">
+                <img src="assets/img/chalkboard.jpg" alt="black bord">
+                <h3>Largest Black Bord</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati error facilis itaque animi
+                    dignissimos
+                    debitis, consequuntur expedita a, inventore, amet nostrum laudantium.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5 -->
+    <section class="testimonial">
+        <h1>What Our Student Says</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="assets/img/person-pic-1.jpg" alt="student">
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste odit, dolorum quae sapiente
+                        quisquam natus ex nobis animi reiciendis tempore eum impedit odio, similique quas minima vero
+                        earum quaerat.</p>
+                    <h3>David Jone</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+            </div>
+            <div class="testimonial-col">
+                <img src="assets/img/person-pic-2.jpg" alt="student">
+                <div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos incidunt ullam libero porro
+                        beatae temporibus repellendus unde ducimus deleniti nam, atque ad architecto quia culpa dolorum
+                        eligendi natus!</p>
+                    <h3>Markes Bril</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 6 -->
+    <section class="cta">
+        <h1>Enroll For Our Various Online Courses <br> "Anywhere From The World"</h1>
+        <a class="hero-btn" href="#">CONTECT US</a>
+    </section>
+
+    <!-- Section 7 -->
+    <section class="footer">
+        <h4>Subscribe To Our Newsletter</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin-in"></i>
+            <i class="fab fa-instagram"></i>
+        </div>
+        <p>Made With: Kiyas Mohamed ❤️</p>
+    </section>
+
+    <!-- Custom Js -->
+    <!-- <script src="assets/js/script.js"></script> -->
+
+    <!-- FontAwesome Js -->
+    <script src="assets/plugins/fontawesome-free-5.15.3-web/js/all.min.js"></script>
+</body>
+
+</html>
